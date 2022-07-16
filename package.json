@@ -1,0 +1,23 @@
+{
+  "name": "wechrome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbk1414/wechrome-reloaded.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gbk1414/wechrome-reloaded/issues"
+  },
+  "homepage": "https://github.com/gbk1414/wechrome-reloaded#readme",
+  "devDependencies": {
+    "cssnano": "^5.1.12",
+    "postcss": "^8.4.14"
+  }
+}

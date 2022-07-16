@@ -1,0 +1,1 @@
+{"id":"s8zH","dependencies":[{"name":"./index.js","dynamic":true,"resolved":"/home/nsean/wechrome/index.js","parent":"/home/nsean/wechrome/index.html"}],"generated":{"html":"<html><title>Hello</title><body> <script src=\"/168726dbe96b3ce427e7fedce31bb0bc.js\"></script> </body></html>"},"sourceMaps":null,"error":null,"hash":"430d1039cbe67684a4bd247c668527f1","cacheData":{}}
