@@ -122,7 +122,7 @@ var quotes = ["Spread love everywhere you go. Let no one ever come to you withou
 var quote = document.querySelector("#quote span");
 var randomI = Math.floor(Math.random() * quotes.length);
 quote.innerText = quotes[randomI];
-},{}],"../.nvm/versions/node/v16.15.1/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{}],"../../.nvm/versions/node/v16.15.1/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -150,7 +150,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "35435" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42601" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -326,5 +326,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../.nvm/versions/node/v16.15.1/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","src/quote.js"], null)
+},{}]},{},["../../.nvm/versions/node/v16.15.1/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","src/quote.js"], null)
 //# sourceMappingURL=/quote.d960c379.js.map
