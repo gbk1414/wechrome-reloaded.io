@@ -2,3 +2,9 @@
     display: none;
 }
 
+#clock{
+    border: red 2px solid;
+    width:600px;
+    margin: 0 auto;
+    font-size: 4cm;
+}
