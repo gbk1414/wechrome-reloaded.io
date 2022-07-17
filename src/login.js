@@ -37,14 +37,10 @@ function paintGreetings(username) {
 
 const savedUsername = localStorage.getItem(USERNAME_KEY);
 
-function greeter() {
-  if (savedUsername === null) {
-    loginForm.classList.remove(HIDDEN_CLASSNAME);
-  } else {
-    paintGreetings(savedUsername);
-  }
+if (savedUsername === null) {
+  loginForm.classList.remove(HIDDEN_CLASSNAME);
+} else {
+  paintGreetings(savedUsername);
 }
 
-greeter();
-setInterval(greeter, 1000);
 loginForm.addEventListener("submit", onLoginSubmit);
