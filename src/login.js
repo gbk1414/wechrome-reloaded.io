@@ -17,12 +17,12 @@ function Timecheck(nHour) {
   let greet = "Hello,";
   if (nHour < 5 || nHour >= 21) {
     greet = "Good Night,";
-  } else if (nHour >= 5 || nHour < 12) {
-    greet = "Good Morning,";
+  } else if (nHour >= 17 && nHour < 21) {
+    greet = "Good Evening,";
   } else if (nHour >= 12 || nHour < 17) {
     greet = "Good AfterNoon,";
-  } else {
-    greet = "Good Evening,";
+  } else if (nHour >= 5 || nHour < 12) {
+    greet = "Good Morning,";
   }
   return greet;
 }
@@ -37,10 +37,14 @@ function paintGreetings(username) {
 
 const savedUsername = localStorage.getItem(USERNAME_KEY);
 
-if (savedUsername === null) {
-  loginForm.classList.remove(HIDDEN_CLASSNAME);
-} else {
-  paintGreetings(savedUsername);
+function greeter() {
+  if (savedUsername === null) {
+    loginForm.classList.remove(HIDDEN_CLASSNAME);
+  } else {
+    paintGreetings(savedUsername);
+  }
 }
 
+greeter();
+setInterval(greeter, 1000);
 loginForm.addEventListener("submit", onLoginSubmit);
