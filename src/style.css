@@ -16,7 +16,7 @@
 
 }
 #login-form input:first-child::placeholder{
-    color: grey;
+    color: black;
     font-size: 1.5cm;
     font-weight: bold;
 }
