@@ -19,7 +19,6 @@
     color: grey;
     font-size: 1.5cm;
     font-weight: bold;
-    display: none;
 }
 #login-form input:last-child{
     position: absolute;
