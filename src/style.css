@@ -33,7 +33,7 @@
 #clock{
     position: absolute;
     left: 50%;
-    top: 40%;
+    top: 38%;
     transform: translate(-50%, -50%);
     border: none;
     width:600px;
@@ -49,8 +49,51 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 70%;
     text-align: center;
     font-size: 2.5cm;
 }
 
+#todo-form{
+    position: absolute;
+    left: 85%;
+    top: 80%;
+    width: 20%;
+    transform: translate(-50%, -50%);
+}
+#todo-form input::placeholder{
+    color: black;
+    font-size: 0.8cm;
+    font-weight: bold;
+}
+
+#todo-list{
+    position: absolute;
+    left: 85%;
+    top: 82%;
+    width: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 0.7cm;
+    font-weight: bold;
+    color: greenyellow;
+}
+
+#quote{
+    position: absolute;
+    left: 50%;
+    top: 78%;
+    font-size: 0.9cm;
+    font-weight: bold;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+#weather{
+    color: white;
+    position: absolute;
+    left: 87%;
+    top: 5%;
+    font-size: 0.5cm;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    text-align: center;
+}
